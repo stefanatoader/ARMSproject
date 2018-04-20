@@ -15,11 +15,11 @@ for line in f:
 
 
 #dupa ce prelucrezi datele, formeaza un nou fisier cu toate datele complete pentru baza de date, in aceasta ordine:
-#artist, songTitle, genre, lyrics, notes
+#artist, songTitle, genre, musicData
 #acolo unde nu ai informatiile, gen lyrics, pune 0 ca linia pe care o formezi in fisier sa aiba toate datele pentru inserare
 
 file = open ('noul fisier cu toate informatiile')
 for line in file:
-    c.execute('insert into music values (?,?,?,?,?)', line)
+    c.execute('insert into music values (?,?,?,?)', line)
 
 conn.commit()
