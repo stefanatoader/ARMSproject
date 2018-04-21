@@ -6,7 +6,7 @@ c = conn.cursor()
 
 #create table music
 
-c.execute("CREATE TABLE music (musicId integer primary key autoincrement, artist varchar2(100), songTitle varchar2(100), genre varchar2(100), lyrics text, notes text)")
+c.execute("CREATE TABLE music (musicId integer primary key autoincrement, artist varchar2(100), songTitle varchar2(100), genre varchar2(100), musicData text)")
 
 
 #create table notes
