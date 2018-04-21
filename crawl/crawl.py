@@ -4,7 +4,8 @@ from bs4 import BeautifulSoup
 URLS = ["https://www.thetoptens.com/metal-songs",
         "https://www.thetoptens.com/best-alternative-songs",
         "https://www.thetoptens.com/rap-songs",
-        "https://www.thetoptens.com/best-pop-songs"]
+        "https://www.thetoptens.com/best-pop-songs",
+        "https://www.thetoptens.com/greatest-punk-songs"]
 
 
 def scrape_billboard(data):
